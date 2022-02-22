@@ -19,7 +19,7 @@
 </head>
 <body class="font-sans antialiased bg-gray-100">
 <div class="flex items-center justify-center h-screen">
-    <main class="max-w-2xl mx-auto pt-10">
+    <main class="max-w-2xl mx-auto px-10">
         @yield('content')
     </main>
 </div>
