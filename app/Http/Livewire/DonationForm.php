@@ -34,6 +34,8 @@ class DonationForm extends Component
         ]);
 
         $this->reset();
+
+        $this->emit('confetti');
     }
 
     public function render()
